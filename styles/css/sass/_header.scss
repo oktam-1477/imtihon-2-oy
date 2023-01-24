@@ -1,0 +1,42 @@
+div#main-header {
+
+        padding: 2rem 0;
+      
+
+        .flex {
+            gap: 1rem;
+        }
+
+        .sider {
+            display: none;
+
+            aside.sidebar {
+                padding: 1rem;
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                background-color: #fff;
+                max-width: calc(300px);
+                width: 100%;
+                transform: translateX(-100%);
+                transition: all 0.3s ease-in-out;
+
+                div {
+                    text-align: right;
+                }
+
+                ul {
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+            }
+
+            input[type="checkbox"]:checked+aside.sidebar {
+                transform: translateX(0);
+            
+        }
+    }
+}

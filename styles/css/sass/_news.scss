@@ -1,0 +1,44 @@
+div#news{
+      h4{
+        font-size: 24px;
+        color: #003459;
+      }
+
+     .flex{
+        padding: 3rem  3rem;
+     }
+
+    .view {
+            padding: 11px 0;
+            text-align: center;
+            width: 128px;
+            height: 41px;
+            border: 1.5px solid #003459 ;
+            border-radius: 45px;
+        }
+
+        .umumiy{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            gap: 3rem;
+
+
+        .cart {
+                background: #fd0;
+                width: 280px;
+                height: 378px;
+                padding: 8px 8px 0px;
+                border-radius: 12px;
+        
+                .img {
+                    border-radius: 12px;
+                }
+            }
+        }
+
+
+       
+}
+
+

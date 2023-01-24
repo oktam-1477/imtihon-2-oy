@@ -1,0 +1,41 @@
+div#adapt{
+        width: 1180px;
+        height: 378px;
+       margin: 0 auto;
+    
+        background: #FFB775;
+        border-radius: 20px;
+    .right {
+            //background:url(../../../img/Rectangle\ 9\ \(3\).png);
+            gap: 2rem;
+            padding: 3rem 3rem;
+    
+            h1 {
+                font-size: 60px;
+
+                img{
+                    width: 42px;
+                    height: 38px;
+                }
+            }
+    
+            h3 {
+                font-size: 46px;
+            }
+    
+            span.flex {
+                padding: 3rem 0;
+                gap: 3rem;
+            }
+    
+            .view {
+                padding: 11px 0;
+                text-align: center;
+                width: 128px;
+                height: 41px;
+                border: 1.5px solid #003459;
+                border-radius: 45px;
+            }
+        }
+        
+}

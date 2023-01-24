@@ -1,0 +1,26 @@
+div.showcase {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    h1{
+        font-size: 60px;
+    }
+
+    h3{
+        font-size: 46px;
+    }
+    span.flex{
+        padding: 3rem 0;
+        gap: 3rem;
+    }
+
+    .view {
+        padding:11px 0;
+        text-align: center;
+        width: 128px;
+        height: 41px;
+        border: 1.5px solid #003459;
+        border-radius: 45px;
+    }
+    
+
+}

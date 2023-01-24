@@ -1,0 +1,43 @@
+div#knaw{
+    h4 {
+            font-size: 24px;
+            color: #003459;
+        }
+    
+        .flex {
+            padding: 3rem 3rem;
+        }
+    
+        .view {
+            padding: 11px 0;
+            text-align: center;
+            width: 128px;
+            height: 41px;
+            border: 1.5px solid #003459;
+            border-radius: 45px;
+        }
+    
+        .umumiy {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            justify-items: center;
+            gap: 3rem;
+    
+    
+            .cart {
+                background: #fff;
+                width: 380px;
+                height: 424px;
+                padding: 8px 8px 0px;
+                border-radius: 12px;
+
+                h5{
+                    font-size: 16px;
+                }
+    
+                .img {
+                    border-radius: 12px;
+                }
+            }
+        }
+}
